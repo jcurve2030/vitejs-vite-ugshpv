@@ -1,0 +1,162 @@
+.apartment-analytics {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.pyramid {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.unit-block {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.unit-block:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.unit-type-S {
+  background-color: #e6f3ff;
+}
+.unit-type-1 {
+  background-color: #e6ffe6;
+}
+.unit-type-2 {
+  background-color: #fff0e6;
+}
+
+.unit-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.unit-icon {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.unit-number,
+.unit-views,
+.unit-rank,
+.unit-favorites {
+  margin: 0 5px;
+}
+
+.unit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.featured-bucket {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+}
+
+.featured-unit {
+  background-color: #e6f3ff;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.unit-block.featured {
+  border: 2px solid #007bff;
+}
+
+.unit-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.unit-details h3 {
+  margin-top: 0;
+}
+
+.pyramid {
+  width: 100%;
+}
+
+.unit-block {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.unit-block:nth-child(1) {
+  width: 100%;
+}
+.unit-block:nth-child(2) {
+  width: 90%;
+}
+.unit-block:nth-child(3) {
+  width: 80%;
+}
+.unit-block:nth-child(4) {
+  width: 70%;
+}
+.unit-block:nth-child(5) {
+  width: 60%;
+}
+.unit-block:nth-child(6) {
+  width: 50%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.active {
+  background-color: #28a745;
+}
+
+.move-speed,
+.marketing-push {
+  display: flex;
+  gap: 5px;
+}
